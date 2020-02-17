@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
     }
 
     public void handleExplicitIntent(View view) {
@@ -21,5 +22,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void handleExit(View view) {
         finish();
+    }
+
+    public void handleImplicitIntent(View view) {
+        Intent intent = new Intent(this, ImplicitIntentActivity.class);
+        startActivity(intent);
     }
 }
