@@ -15,6 +15,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import java.io.IOException;
 
+import de.hdodenhof.circleimageview.CircleImageView;
+
 public class ImplicitIntentActivity extends AppCompatActivity {
 
     private static final String TAG = ImplicitIntentActivity.class.getCanonicalName();
